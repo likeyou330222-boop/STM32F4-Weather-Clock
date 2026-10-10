@@ -1,0 +1,29 @@
+
+# Private Wi-Fi credentials
+/app/wifi_credentials.h
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Keil MDK build outputs
+mdk/Objects/
+mdk/Listings/
+*.axf
+*.hex
+*.elf
+*.map
+*.o
+*.d
+*.crf
+*.lnp
+*.uvoptx
+*.uvguix.*
+
+# Editor and operating system caches
+.vscode/ipch/
+.idea/
+.DS_Store
+Thumbs.db
+  
